@@ -50,14 +50,14 @@ a, body, html {
 /* Home Pic*/
 
 .coverpic {
-    background-image: url('pics/rainbow-ombre2.jpg');
+    background-image: url('pics/rainbow-ombre2.jpeg');
     height: 100%;
 }
 
 /* Portfolio Pic*/
 
 .sectionpic1 {
-    background-image: url('pics/rainbow-ombre2.jpg');
+    background-image: url('pics/rainbow-ombre2.jpeg');
     min-height: 400px;
 }
 
