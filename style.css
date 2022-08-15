@@ -77,6 +77,39 @@ a, body, html {
     border: 12px solid white;
 }
 
+/* Text Container */
+
+.text-container {
+    max-width: 980px;
+    margin: auto;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: center;
+}
+
+.text-inner-container {
+    max-width: 980px;
+    margin: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.section-container {
+    max-width: 980px;
+    margin: auto;
+}
+
+.footer-container {
+    color: white;
+    background-color: gainsboro;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.center {
+    text-align: center;
+}
+
 /* GAME iFRAME */
 
 iframe {
