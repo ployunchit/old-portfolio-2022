@@ -39,7 +39,7 @@ a, body, html {
 
 /* Parallax Pictures */
 
-.coverpic, .sectionpic1 {
+.coverpic, .sectionpic1, .sectionpic2 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,14 +50,14 @@ a, body, html {
 /* Home Pic*/
 
 .coverpic {
-    background-image: url('rainbow-ombre2.jpeg');
+    background-image: url('pics/rainbow-ombre2.jpg');
     height: 100%;
 }
 
 /* Portfolio Pic*/
 
 .sectionpic1 {
-    background-image: url('rainbow-ombre2.jpeg');
+    background-image: url('pics/rainbow-ombre2.jpg');
     min-height: 400px;
 }
 
@@ -116,6 +116,8 @@ iframe {
     border: 0;
 }
 
+/* PICTURE ROWS AND COLUMNS */
+
 .column {
     float: left;
     width: 32%;
@@ -126,6 +128,41 @@ iframe {
     content: "";
     clear: both;
     display: table;
+}
+
+div.pic-card {
+    width: 300px;
+    align-content: center;
+    box-shadow: 0 1px 8px slategray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+/* CAD PICTURES */
+
+.img-container {
+    height: 350px;
+    width: 150px;
+    background-size: cover;
+    width: 100%;
+}
+
+.cad {
+    background: url("./pics/cad.JPG") center 0/cover no-repeat;
+}
+
+.cad-bare {
+    background: url("./pics/arcade-cabinet-rotated.jpeg") center 0/cover no-repeat;
+}
+
+.cad-painted {
+    background: url("./pics/painted-arcade-cabinet-rotated.jpeg") center 0/cover no-repeat;
+}
+  
+div.pic-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* More Button */
