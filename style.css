@@ -52,15 +52,8 @@ a, body, html {
 /* Home Pic*/
 
 .coverpic {
-    background-image: url('rainbow-ombre2.jpeg');
+    background-image: url('pics/rainbow-ombre2.jpeg');
     height: 100%;
-}
-
-/* Portfolio Pic*/
-
-.sectionpic1 {
-    background-image: url('rainbow-ombre2.jpeg');
-    min-height: 400px;
 }
 
 /* Title Text */
@@ -74,6 +67,12 @@ a, body, html {
     color: white;
     font-size: 20px;
     text-shadow: 3x 3px 8px #000000;
+}
+
+.memoji {
+    width: 50vw;
+    height: 10px;
+    position:relative;
 }
 
 /* Text Container */
@@ -237,6 +236,7 @@ div.pic-card:hover {
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 20px 20px 25px rgba(0, 0, 0, .1);
+    backdrop-filter: blur;
 }
 
 .button span {
