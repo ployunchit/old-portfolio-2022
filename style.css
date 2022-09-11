@@ -9,7 +9,6 @@ a, body, html {
     height: 100%;
     margin: 0;
     line-height: 1.5;
-    
 }
 
 /* Navbar */
@@ -70,9 +69,8 @@ a, body, html {
 }
 
 .memoji {
-    width: 50vw;
-    height: 10px;
-    position:relative;
+    float: right;
+    transform: scale(0.5, 0.5);
 }
 
 /* Text Container */
